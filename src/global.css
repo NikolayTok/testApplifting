@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn-defalut {
+  @apply bg-[#007BFF];
+  @apply text-white;
+  @apply hover:bg-gray-500;
+  @apply active:bg-green-700;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
